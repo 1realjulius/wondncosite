@@ -20,14 +20,14 @@
 // (see cPanel -> email accounts).  Using an account at your host improves deliverability.
 
 // These are the Outgoing Server (SMTP) details provided by your email host
-$outgoingServerAddress     = 'https://server289.web-hosting.com/cpanel'; // consult your hosting provider.
-$outgoingServerPort        = '21';                  // '587' , '25' - consult your hosting provider
-$outgoingServerSecurity    = 'tls';                 // 'ssl' , 'tls' , null - consult your hosting provider.
+$outgoingServerAddress     = 'Smtp.gmail.com'; // consult your hosting provider.
+$outgoingServerPort        = '465';                  // '587' , '25' - consult your hosting provider
+$outgoingServerSecurity    = 'ccl';                 // 'ssl' , 'tls' , null - consult your hosting provider.
 
 // Sending Account Settings - replace these details with an email account held on the SMTP server entered above.
 // This will also be used as the account to send the confirmation to the user.
-$sendingAccountUsername    = 'juliuseghan@wonderco.site';
-$sendingAccountPassword    = 'iamjuliuseghan@01022004';
+$sendingAccountUsername    = 'juliuseghan29@gmail.com';
+$sendingAccountPassword    = 'nickarts';
 
 // Recipient (To:) Details - Change this to the email details of who will receive all the emails from the website.
 $recipientEmail            = 'iamjuliuseghan@gmail.com';      // Where to send the admin email.
